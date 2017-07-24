@@ -1,3 +1,3 @@
 module PropellerRails
-  VERSION = '0.1.0-beta'.freeze
+  VERSION = '0.1.1-beta'.freeze
 end

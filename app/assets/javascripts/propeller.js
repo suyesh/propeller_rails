@@ -1,3 +1,3 @@
-//= require jquery
-//= require bootstrap-sprockets
+//= require js/jquery
+//= require js/bootstrap
 //= require js/propeller
