@@ -1,8 +1,6 @@
 # PropellerRails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/propeller_rails`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Propeller Material Design Framework for Rails. It comes bundled with Bootstrap and Jquery. For Detailed documentation go to [propeller.in](http://propeller.in/)
 
 ## Installation
 
@@ -12,17 +10,17 @@ Add this line to your application's Gemfile:
 gem 'propeller_rails'
 ```
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install propeller_rails
-
 ## Usage
 
-TODO: Write usage instructions here
+After adding ```propeller_rails``` to your Gemfile, run ```bundle install```. Then add codes below to your project.
+
+### In app/assets/stylesheets
+
+First Rename ```application.css``` to ```application.scss``` , then add ```@import 'propeller';```
+
+### In app/assets/javascripts/application.js
+
+Add ```//= require propeller```
 
 ## Development
 
@@ -32,4 +30,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/propeller_rails.
+Bug reports and pull requests are welcome on GitHub at https://github.com/suyesh/propeller_rails.
